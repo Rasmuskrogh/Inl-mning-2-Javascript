@@ -1,6 +1,9 @@
 var inkomsterna = [];
 var utgifterna = [];
 
+
+
+
 function inkomstFunktioner (event){
 
     event.preventDefault();
@@ -72,8 +75,6 @@ ul2.appendChild(li2);
 }
 
 
-
-
 var btn = document.querySelector(".läggTill2");
 
-btn.addEventListener("click" , utgiftsFunktioner );
+btn.addEventListener("click" , utgiftsFunktioner ); 

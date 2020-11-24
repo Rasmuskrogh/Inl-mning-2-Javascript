@@ -1,0 +1,4 @@
+var summa3 = summa + summa2;
+
+var resterande = document.querySelector(".Resterande")
+resterande.innerText = summa2;
