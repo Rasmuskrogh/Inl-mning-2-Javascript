@@ -54,7 +54,7 @@ var värde2 = document.querySelector("#värde2").value;
 
 utgifterna.push (Number (värde2))
 
-var utgiftTotal = document.querySelector(".inkomstTotal")
+var utgiftTotal = document.querySelector(".utgiftTotal")
 
 var summa2 = 0;
 for(var i=0; i<utgifterna.length; i++) {
@@ -63,12 +63,12 @@ for(var i=0; i<utgifterna.length; i++) {
 
 utgiftTotal.innerText = summa2;
 
-var li = document.createElement("li")
+var li2 = document.createElement("li")
 
-li.innerText= beskrivning2 + " : " + värde2;
+li2.innerText= beskrivning2 + " : " + värde2;
 
-var ul = document.querySelector(".utgifter");
-ul.appendChild(li);
+var ul2 = document.querySelector(".utgifter");
+ul2.appendChild(li2);
 }
 
 
