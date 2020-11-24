@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekonomiapp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    
+
+
+    <main>
+
+        <figure>
+            <img src="SmooothSituations_HomeCinema_Simplified_klarna.comhero_Desktop_1920x1080-2.jpg" alt="bakgrund" id="bakgrundsbild">
+        </figure>
+        <h1>Ekonomi</h1>
+
+        <section class="Inkomst">
+            <h2>Inkomst</h2>
+            <form>
+                <input type="text"  id="beskrivning">
+                <input type="siffror" id="värde">
+                <button class="läggTill1">Lägg till</button>
+            </form>
+            
+            <ul class="inkomster">
+
+            </ul>
+            <div>
+                <h3>Total inkomst:</h3>
+                <span class="inkomstTotal"></span>
+            </div>
+
+        </section>
+
+        <section class="Utgift">
+            <h2>Utgift</h2>
+            <form>
+                <input type="text" id="beskrivning2">
+                <input type="siffror" id="värde2">
+                <button class="läggTill2">Lägg till</button>
+            </form>
+            
+            <ul class="utgifter">
+
+            </ul>
+            <div>
+                <h3>Total utgift:</h3>
+                <span class="utgiftTotal"></span>
+            </div>
+
+        </section>
+
+        <aside class="Kvar">
+            <h2>Kvar:</h2>
+            <span class="Resterande"></span>
+            <button>Rensa</button>
+        </aside>
+
+
+    </main>
+
+
+
+</body>
+</html>
