@@ -4,9 +4,108 @@
     box-sizing: border-box;
 }
 
-#bakgrundsbild {
-    height: 100%;
-    position: absolute;
+
+body {
+    background-image: url(SmooothSituations_HomeCinema_Simplified_klarna.comhero_Desktop_1920x1080-2.jpg);
+    height: 1000px;
+    background-size:cover;
+    background-position:75% 25%;
+    background-repeat: no-repeat;
     z-index: -1;
 }
 
+main { 
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#beskrivning, #beskrivning2 {
+    width: 270px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#värde, #värde2 {
+    width: 200px;
+    height:35px;
+    font-size:20px;
+}
+
+.läggTill1, .läggTill2, .rensa {
+    height: 35px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+li {
+    background-color:white;
+    width: 473px;
+    margin-top:5px;
+    height:35px;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.Inkomst {
+    margin-left: 7%;
+    margin-top: 5%;
+    
+}
+
+.Utgift {
+    margin-left: 7%;
+    
+}
+
+h1 {
+    
+    margin-left: 80px;
+    font-size: 60px
+}
+
+aside {
+    margin-left: 7%;
+}
+
+.inkomstTotal, .utgiftTotal, .Resterande {
+    background-color: white;
+    width: 270px;
+    margin-top:5px;
+    height:35px;
+    color: black;
+    font-size: 20px;
+    text-align:center;
+    font-weight: 900;
+}
+
+.margintop1 {
+    margin-top:15px;
+    
+}
+
+.margintop2 {
+    margin-top:20px;
+}
+
+
+
+.centering {
+    width: 270px;
+    text-align: center;
+}
+
+.Resterande {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
