@@ -83,7 +83,7 @@ li2.innerText= beskrivning2 + " : " + värde2;
 var ul2 = document.querySelector(".utgifter");
 ul2.appendChild(li2);
 
-var summa3 = 0;
+
 for(var i=0; i<totalsumma.length; i++) {
     summa3 += totalsumma[i];
     console.log(summa3)
