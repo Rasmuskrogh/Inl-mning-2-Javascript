@@ -19,7 +19,7 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
-.underline {
+section>h2, aside>h2 {
     text-decoration: underline;
 }
 
@@ -60,11 +60,8 @@ li {
 }
 
 .Utgift {
-    margin-left: 7%;
-    
+    margin-left: 7%;  
 }
-
-
 
 h1 {
     margin-left: 220px;
@@ -72,7 +69,7 @@ h1 {
     margin-top: 70px;
 }
 
-.Kvar {
+aside {
     margin-left: 7%;
 }
 
@@ -88,19 +85,13 @@ h1 {
     padding-top: 5px;
 }
 
-.margintop1 {
-    margin-top:15px;
-    
+h3 {
+    margin-top:15px;    
 }
 
-.margintop2 {
+.margintop {
     margin-top:20px;
 }
-
-
-
-
-
 .Resterande {
     margin-bottom: 5px;
 }
@@ -122,21 +113,19 @@ ul {
         font-size: 40px;
         margin-bottom: 20px;
         margin-right: 30%;
+        margin-left: 30%
 
     }
     #beskrivning, #beskrivning2, .inkomstTotal, .utgiftTotal, .Resterande {
         width: 235px;
+    }
+    #värde, #värde2 {
+        width: 141px;
     }
     
     main {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    
-    .Kvar {
-        margin-left: 0%;
-    }
     } 
 }
