@@ -1,33 +1,24 @@
 .Inkomst {
     margin-left: 7%;
     margin-top: 5px;
-    #beskrivning {
-        width: 270px;
-        height: 35px;
-        font-size: 20px;
-    }
-    #värde {
-        width: 176px;
-        height: 35px;
-        font-size: 20px;
-    }
-    .läggTill1 {
-        height: 35px;
-        width: 90px;
-        background-color:$btnColor;
-        color:$btnTextColor;
-        font-size: 18px;
-    }
-    .inkomstTotal {
-        background-color:$backgroundColor;
-        width: 270px;
-        margin-top: 5px;
-        height: 35px;
-        color:$textColor;
-        font-size: 20px;
-        text-align: center;
-        font-weight: 900;
-        padding-top: 5px;
+    form {
+        #beskrivning {
+            width: 270px;
+            height: 35px;
+            font-size: 20px;
+        }
+        #värde {
+            width: 176px;
+            height: 35px;
+            font-size: 20px;
+        }
+        .läggTill1 {
+            height: 35px;
+            width: 90px;
+            background-color:$btnColor;
+            color:$btnTextColor;
+            font-size: 18px;
+        }    
     }
     h2 {
         text-decoration: underline;
@@ -37,8 +28,21 @@
       margin: 0;
       padding: 0;
     }
-    h3 {
-        margin-top:15px;    
+    div {
+        h3 {
+            margin-top:15px;    
+        }
+        .inkomstTotal {
+            background-color:$backgroundColor;
+            width: 270px;
+            margin-top: 5px;
+            height: 35px;
+            color:$textColor;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 900;
+            padding-top: 5px;
+        }   
     }
 }
 
