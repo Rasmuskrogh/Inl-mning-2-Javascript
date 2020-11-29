@@ -1,0 +1,37 @@
+aside {
+    margin-left: 7%;
+    h2 {
+        text-decoration: underline;
+    }
+    .margintop {
+        margin-top: 20px;
+    }
+    .Resterande {
+        background-color:$backgroundColor;
+        width: 270px;
+        margin-top:5px;
+        height:35px;
+        color:$textColor;
+        font-size: 20px;
+        text-align:center;
+        font-weight: 900;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    .rensa {
+        height: 35px;
+        width: 90px;
+        background-color:$btnColor;
+        color: $btnTextColor;
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 629px) {
+    .Resterande {
+        width: 235px;
+    }
+}
+
+    

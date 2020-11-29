@@ -1,0 +1,59 @@
+.Utgift {
+    margin-left: 7%;
+    .margintop {
+        margin-top: 20px;
+    }
+    #beskrivning2 {
+        width: 270px;
+        height: 35px;
+        font-size: 20px;
+    }
+    #värde2 {
+        width: 176px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .läggTill2 {
+        height: 35px;
+        width: 90px;
+        background-color:$btnColor;
+        color:$btnTextColor;
+        font-size: 18px;
+    }
+    .utgiftTotal {
+        background-color:$backgroundColor;
+        width: 270px;
+        margin-top: 5px;
+        height: 35px;
+        color:$textColor;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 900;
+        padding-top: 5px;
+    }
+    h2 {
+        text-decoration: underline;
+    }
+    ul {
+        list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    h3 {
+        margin-top:15px;    
+    }
+
+}
+
+@media (max-width: 629px) {
+    #beskrivning2 {
+        display:block;
+        width: 235px;;
+    }
+    .utgiftTotal {
+        width: 235px;
+    }
+    #värde2 {
+        width: 141px;
+    }
+}

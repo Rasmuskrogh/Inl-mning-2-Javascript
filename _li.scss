@@ -1,0 +1,16 @@
+li {
+    background-color:$backgroundColor;
+    width: 449px;
+    margin-top:5px;
+    height:35px;
+    color:$textColor;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 5px;
+}
+
+@media (max-width: 629px) {
+    li {
+        width:235px;
+    }
+}

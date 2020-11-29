@@ -1,131 +1,236 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-
 
 body {
-    background-image: url(SmooothSituations_HomeCinema_Simplified_klarna.comhero_Desktop_1920x1080-2.jpg);
-    height: 1000px;
-    background-size:cover;
-    background-position:75% 25%;
-    background-repeat: no-repeat;
-    z-index: -1;
+  background-image: url(SmooothSituations_HomeCinema_Simplified_klarna.comhero_Desktop_1920x1080-2.jpg);
+  height: 1000px;
+  background-size: cover;
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
-main { 
-    color: white;
-    font-family: 'Raleway', sans-serif;
+main {
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
-section>h2, aside>h2 {
-    text-decoration: underline;
+main h1 {
+  margin-left: 220px;
+  font-size: 60px;
+  margin-top: 70px;
 }
 
-#beskrivning, #beskrivning2 {
-    width: 270px;
-    height: 35px;
-    font-size: 20px;
+@media (max-width: 629px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
+  }
 }
 
-#värde, #värde2 {
-    width: 176px;
-    height:35px;
-    font-size:20px;
-}
-
-.läggTill1, .läggTill2, .rensa {
-    height: 35px;
-    width: 90px;
-    background-color: black;
-    color: white;
-    font-size: 18px;
-}
-
-li {
-    background-color:white;
-    width: 449px;
-    margin-top:5px;
-    height:35px;
-    color: black;
-    font-size: 20px;
-    font-weight: 900;
-    padding-top: 5px;
-}
 .Inkomst {
-    margin-left: 7%;
-    margin-top: 5px;
-    
+  margin-left: 7%;
+  margin-top: 5px;
 }
 
-.Utgift {
-    margin-left: 7%;  
+.Inkomst #beskrivning {
+  width: 270px;
+  height: 35px;
+  font-size: 20px;
 }
 
-h1 {
-    margin-left: 220px;
-    font-size: 60px;
-    margin-top: 70px;
+.Inkomst #värde {
+  width: 176px;
+  height: 35px;
+  font-size: 20px;
 }
 
-aside {
-    margin-left: 7%;
+.Inkomst .läggTill1 {
+  height: 35px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
 }
 
-.inkomstTotal, .utgiftTotal, .Resterande {
-    background-color: white;
-    width: 270px;
-    margin-top:5px;
-    height:35px;
-    color: black;
-    font-size: 20px;
-    text-align:center;
-    font-weight: 900;
-    padding-top: 5px;
+.Inkomst .inkomstTotal {
+  background-color: white;
+  width: 270px;
+  margin-top: 5px;
+  height: 35px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 5px;
 }
 
-h3 {
-    margin-top:15px;    
+.Inkomst h2 {
+  text-decoration: underline;
 }
 
-.margintop {
-    margin-top:20px;
-}
-.Resterande {
-    margin-bottom: 5px;
-}
-
-ul {
-    list-style-type: none;
+.Inkomst ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-@media (max-width: 629px) {
-    li {
-        width:235px;
-    }
-    #beskrivning, #beskrivning2 {
-        display:block;
-    }
-    h1 {
-        font-size: 40px;
-        margin-bottom: 20px;
-        margin-right: 30%;
-        margin-left: 30%
-
-    }
-    #beskrivning, #beskrivning2, .inkomstTotal, .utgiftTotal, .Resterande {
-        width: 235px;
-    }
-    #värde, #värde2 {
-        width: 141px;
-    }
-    
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } 
+.Inkomst h3 {
+  margin-top: 15px;
 }
+
+@media (max-width: 629px) {
+  #beskrivning {
+    display: block;
+    width: 235px;
+  }
+  .inkomstTotal {
+    width: 235px;
+  }
+  #värde {
+    width: 141px;
+  }
+}
+
+.Utgift {
+  margin-left: 7%;
+}
+
+.Utgift .margintop {
+  margin-top: 20px;
+}
+
+.Utgift #beskrivning2 {
+  width: 270px;
+  height: 35px;
+  font-size: 20px;
+}
+
+.Utgift #värde2 {
+  width: 176px;
+  height: 35px;
+  font-size: 20px;
+}
+
+.Utgift .läggTill2 {
+  height: 35px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+.Utgift .utgiftTotal {
+  background-color: white;
+  width: 270px;
+  margin-top: 5px;
+  height: 35px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 5px;
+}
+
+.Utgift h2 {
+  text-decoration: underline;
+}
+
+.Utgift ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Utgift h3 {
+  margin-top: 15px;
+}
+
+@media (max-width: 629px) {
+  #beskrivning2 {
+    display: block;
+    width: 235px;
+  }
+  .utgiftTotal {
+    width: 235px;
+  }
+  #värde2 {
+    width: 141px;
+  }
+}
+
+aside {
+  margin-left: 7%;
+}
+
+aside h2 {
+  text-decoration: underline;
+}
+
+aside .margintop {
+  margin-top: 20px;
+}
+
+aside .Resterande {
+  background-color: white;
+  width: 270px;
+  margin-top: 5px;
+  height: 35px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+aside .rensa {
+  height: 35px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 629px) {
+  .Resterande {
+    width: 235px;
+  }
+}
+
+li {
+  background-color: white;
+  width: 449px;
+  margin-top: 5px;
+  height: 35px;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 5px;
+}
+
+@media (max-width: 629px) {
+  li {
+    width: 235px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

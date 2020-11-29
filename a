@@ -1,0 +1,133 @@
+$textColor: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(SmooothSituations_HomeCinema_Simplified_klarna.comhero_Desktop_1920x1080-2.jpg);
+    height: 1000px;
+    background-size:cover;
+    background-position:75% 25%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+}
+
+main { 
+    color:$textColor;
+    font-family: 'Raleway', sans-serif;
+}
+
+section>h2, aside>h2 {
+    text-decoration: underline;
+}
+
+#beskrivning, #beskrivning2 {
+    width: 270px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#värde, #värde2 {
+    width: 176px;
+    height:35px;
+    font-size:20px;
+}
+
+.läggTill1, .läggTill2, .rensa {
+    height: 35px;
+    width: 90px;
+    background-color: black;
+    color: $textColor;
+    font-size: 18px;
+}
+
+li {
+    background-color:white;
+    width: 449px;
+    margin-top:5px;
+    height:35px;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 5px;
+}
+.Inkomst {
+    margin-left: 7%;
+    margin-top: 5px;
+    
+}
+
+.Utgift {
+    margin-left: 7%;  
+}
+
+h1 {
+    margin-left: 220px;
+    font-size: 60px;
+    margin-top: 70px;
+}
+
+aside {
+    margin-left: 7%;
+}
+
+.inkomstTotal, .utgiftTotal, .Resterande {
+    background-color: white;
+    width: 270px;
+    margin-top:5px;
+    height:35px;
+    color: black;
+    font-size: 20px;
+    text-align:center;
+    font-weight: 900;
+    padding-top: 5px;
+}
+
+h3 {
+    margin-top:15px;    
+}
+
+.margintop {
+    margin-top:20px;
+}
+.Resterande {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 629px) {
+    li {
+        width:235px;
+    }
+    #beskrivning, #beskrivning2 {
+        display:block;
+    }
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-right: 30%;
+        margin-left: 30%
+
+    }
+    #beskrivning, #beskrivning2, .inkomstTotal, .utgiftTotal, .Resterande {
+        width: 235px;
+    }
+    #värde, #värde2 {
+        width: 141px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}

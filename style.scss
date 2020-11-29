@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./functions";
+@import "./body";
+@import "./main";
+@import "./sectionInkomst";
+@import "./sectionUtgift";
+@import "./aside";
+@import "./li";
